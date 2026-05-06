@@ -1,0 +1,36 @@
+{
+  "name": "nft-to-pet",
+  "version": "0.1.0",
+  "description": "Import AVTR pet NFT sprites from a public Solana wallet into local Codex pet folders.",
+  "author": {
+    "name": "Leon",
+    "email": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "avtr",
+    "pets",
+    "solana",
+    "nft",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "NFT to Pet",
+    "shortDescription": "Imports owned AVTR NFT pet sprites by public wallet address.",
+    "longDescription": "Scans a public Solana wallet for AVTR pet NFTs, downloads their spritesheets and backgrounds, and writes Codex-compatible pet folders locally. It never needs a private key or wallet signature.",
+    "developerName": "Leon",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Import AVTR pets for this wallet",
+      "Sync my AVTR NFT pets into Codex",
+      "List AVTR pets owned by a wallet"
+    ],
+    "brandColor": "#20C7B5"
+  }
+}

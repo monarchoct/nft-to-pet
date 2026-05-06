@@ -1,0 +1,19 @@
+{
+  "name": "nft-to-pet",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Codex plugin that imports AVTR pet NFT sprites from a public Solana wallet.",
+  "scripts": {
+    "import": "node scripts/import-avtr-pets.mjs",
+    "check": "node -e \"JSON.parse(require('fs').readFileSync('.codex-plugin/plugin.json','utf8')); console.log('plugin manifest ok')\""
+  },
+  "keywords": [
+    "codex-plugin",
+    "avtr",
+    "pet",
+    "nft",
+    "solana"
+  ],
+  "license": "UNLICENSED"
+}
